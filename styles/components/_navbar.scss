@@ -1,0 +1,31 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    color: #fff;
+    font-family: $fnt-style-lora;
+    font-size: $fnt-size-32;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+
+    li:not(:first-child){
+        margin-left: 4rem;
+    }
+}
+
+.link{
+    font-size: 1.8rem;
+    font-family: $fnt-style-questrial;
+}
